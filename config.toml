@@ -1,3 +1,247 @@
+# Page settings
+baseurl = "localhost:1313"
+title = "Liquid Genius - Enterprise-Engineered Solutions"
 languageCode = "en-us"
-title = "Liquid Genius - Making the internet smart again!"
-baseurl = "http://liquidgenius.io/"
+theme = "hugo-elate-theme"
+
+[params]
+
+  custom_css = ["css/custom1.css", "css/custom2.css"]
+
+  # Meta
+  author = ""
+  description = ""
+  email = ""
+  # Navigation
+  [params.navigation]
+    brand = "Liquid Genius"
+    home = "Home"
+    work = "Work"
+    testimonials = "Testimonials"
+    services = "Services"
+    about = "About"
+    contact = "Contact"
+
+    # You can add custom links before or after the default links
+    # Assign a weight to define the order
+
+  # Hero section
+  [params.hero]
+    title = "Enterprise-Engineered Solutions"
+    subtitle = 'for any size workflow'
+
+  # Intro section
+  # Available icons: http://simplelineicons.com/
+  [params.intro]
+
+  [[params.intro.item]]
+    title = "Learn"
+    description = "We dive deep into your existing processes, tools, and needs in order to fully understand your business"
+    #url = "#" #url and button support have been removed from the intro.html
+    #button = "Get In Touch"
+    icon = "icon-notebook"
+    img = "img_7.jpg"
+
+  [[params.intro.item]]
+    title = "Design"
+    description = "We deliver a comprehensive Enterprise-Engineered solution design, considering all aspects of your business"
+    icon = "icon-briefcase"
+    img = "img_8.jpg"
+
+  [[params.intro.item]]
+    title = "Launch"
+    description = "We code the solution, deploy the solution for you, and provide ongoing support and data-rich metrics to help drive your future"
+    icon = "icon-rocket"
+    img = "img_10.jpg"
+
+
+  [params.intro.video]
+    enable = false
+    title = "Watch the video"
+    icon = "icon-play2"
+    url = "https://vimeo.com/channels/staffpicks/93951774"
+
+
+  # Work section
+  [params.work]
+    enable = false
+    title = "Work"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
+
+    [[params.work.row]]
+      img = "work_1.jpg"
+      alt = "Image2"
+      title = "Project 1"
+      subtitle = "Branding"
+
+    [[params.work.row]]
+      img = "work_2.jpg"
+      alt = "Image2"
+      title = "Project 2"
+      subtitle = "Design"
+
+    [[params.work.row]]
+      img = "work_3.jpg"
+      alt = "Image3"
+      title = "Project 3"
+      subtitle = "Design"
+
+    [[params.work.row]]
+      img = "work_4.jpg"
+      alt = "Image4"
+      title = "Project 4"
+      subtitle = "Design"
+
+    [[params.work.row]]
+      img = "work_5.jpg"
+      alt = "Image5"
+      title = "Project 5"
+      subtitle = "Design"
+
+    [[params.work.row]]
+      img = "work_6.jpg"
+      alt = "Image6"
+      title = "Project 6"
+      subtitle = "Design"
+
+  # Testimonials section
+  [params.testimonials]
+    enable = false
+    title = "Testimonials"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+
+    [[params.testimonials.item]]
+      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
+      person = 'Jean Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+      img = "person1.jpg"
+      alt = "Person1"
+
+    [[params.testimonials.item]]
+      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;"
+      person = 'John Doe, Senior UI <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span#>'
+      img = "person2.jpg"
+      alt = "Person2"
+
+    [[params.testimonials.item]]
+      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
+      person = 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+      img = "person3.jpg"
+      alt = "Person3"
+
+  # Services section
+  [params.services]
+    enable = true
+    title = "Services"
+    description = "Liquid Genius is built on doing quality work for great people. We apply the methodologies developed transforming large, enterprise-level projects to every problem we encounter. LG values strong relationships and a commitment to making things better. It's the most important work we can do."
+
+    [[params.services.item]]
+      title = "Comprehensive Analysis"
+      description = "Using Enterprise honed techniques, we will work with you to discover and document your existing tools and processes, so the solutions we design are fully relevant, fully deployable, and fully understandable. You will see your organization in the solution designed."
+      icon = "icon-notebook"
+
+    [[params.services.item]]
+      title = "Legendary Solution Design"
+      description = "Liquid Genius uses industry-leading analysis and solution design techniques, performed by proven talent. We'll work with you to validate the solution design as it is built, and before final delivery. Once delivered, the ownership rights to the entire design package are transferred to you - Liquid Genius never holds a customer's work product hostage."
+      icon = "icon-briefcase"
+
+    [[params.services.item]]
+      title = "Software Implmentation Tailored to You"
+      description = "Solution implementation could be making changes to existing solutions or processes, implementing a new commercially available solution, coding a custom solution, or a combination of all of these. Liquid Genius wants to provide the best solution for your organization, and that means a solution explicitly tailored to the customer and the problem space, every time. "
+      icon = "icon-code"
+
+      [[params.services.item]]
+      title = "Hands-on Deployment, Support, and Metrics"
+      description = "When Liquid Genius builds a solution, we build a partnership. When we implement a solution, we deploy it for you and provide two years of hands-on support - providing whatever hosting, additional software, documentation, or training the solution requires. We also configure and collect comprehensive use metrics to help you shape your organization's future using hard data. Liquid Genius builds solutions - that means being there to help you succeed long term."
+      icon = "icon-rocket"
+
+  # About section
+  [params.about]
+    enable = true
+    title = "About"
+    description = "Liquid Genius is a group of partners from major projects around the US, looking to bring quality, effective engineering practices developed on major projects to all."
+
+    [[params.about.item]]
+      name = "Michael Peter"
+      position = "Solutions Architect - Founder"
+      description = '"My primary focus is driving positive transformation. I believe change for the better can occur in any system, no matter how complex, and any organization, no matter the culture."'
+      img = "person1.jpg"
+      alt = "Person1"
+      social = [
+        ["icon-linkedin", "https://www.linkedin.com/in/michaelpeter"]
+      ]
+
+#    [[params.about.item]]
+#      name = "Lisa Schlecht"
+#      position = "Requirements and Design"
+#      description = "Engineer, analyst, and entrepreneur with experience in product design, process improvement, and strategic planning for NGOs, governments, enterprises, start-ups, and universities in the Americas. "
+#      img = "person2.jpg"
+#      alt = "Person2"
+#      social = [
+#        ["icon-linkedin", "https://www.linkedin.com/in/lisaschlecht"]
+#      ]
+
+    [[params.about.item]]
+      name = "Chris Duffy"
+      position = "Automation and Tools Engineer - Founder"
+      description = "Drives race cars, flies airplanes, and fixes everything. Chris Duffy is the man to call if you've got one line left to come save your company/project/team."
+      img = "person3.jpg"
+      alt = "Person3"
+      social = [
+        ["icon-linkedin", "https://www.linkedin.com/in/chris-duffy-bbb88419"]
+      ]
+
+  # Counters section
+  [params.counters]
+    enable = true
+    title = "Stats"
+    background = "full_image_1.jpg"
+
+    [[params.counters.item]]
+      description = "Major Projects Saved by LG Partners (So Far)"
+      icon = "icon-rocket"
+      from = 0
+      to = 16
+      interval = 50
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "US Dollars saved"
+      icon = "icon-graph"
+      from = 0
+      to = 8900000
+      interval = 50
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "Lives Impacted"
+      icon = "icon-people"
+      from = 0
+      to = 480000
+      interval = 50
+      speed = 5000
+
+  # Contact section
+  [params.contact]
+    enable = true
+    map = false
+    title = "Get Started"
+    description = "Contact Liquid Genius"
+
+    # Available icons: http://simplelineicons.com/
+    details = [
+        ["icon-envelope", '<a href="mailto:info@liquidgenius.io">info@liquidgenius.io</a>'],
+        ["icon-globe", '<a href="http://liquidgenius.io/" target="_blank">liquidgenius.io</a>']
+      ]
+
+# Contact form disabled in contact.html
+#    name = "Name"
+#    email = "Email"
+#    phone = "Phone"
+#    message = "Message"
+#    button = "Send message"
+
+  # Footer section
+  [params.footer]
+    enable = true
+    copyright = ''
