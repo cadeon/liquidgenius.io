@@ -1,5 +1,5 @@
 # Page settings
-baseurl = "localhost:1313"
+baseurl = "http://liquidgenius.io"
 title = "Liquid Genius - Enterprise-Engineered Solutions"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
