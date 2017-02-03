@@ -137,12 +137,12 @@ theme = "hugo-elate-theme"
 
     [[params.services.item]]
       title = "Comprehensive Analysis"
-      description = "Using Enterprise honed techniques, we will work with you to discover and document your existing tools and processes, so the solutions we design are fully relevant, fully deployable, and fully understandable. You will see your organization in the solution designed."
+      description = "Using Enterprise honed techniques, we will work with you to discover and document your existing tools and processes, so the solution we design is relevant, deployable, and understandable. A solution that fits where you want to go."
       icon = "icon-notebook"
 
     [[params.services.item]]
       title = "Legendary Solution Design"
-      description = "Liquid Genius uses industry-leading analysis and solution design techniques, performed by proven talent. We'll work with you to validate the solution design as it is built, and before final delivery. Once delivered, the ownership rights to the entire design package are transferred to you - Liquid Genius never holds a customer's work product hostage."
+      description = "Liquid Genius uses industry-leading analysis and solution design techniques, performed by proven talent. We'll work with you to validate the solution design as it is built, and before final delivery. Once delivered, the ownership rights to the design package belong to you - Liquid Genius never holds a customer's work product hostage."
       icon = "icon-briefcase"
 
     [[params.services.item]]
@@ -159,7 +159,7 @@ theme = "hugo-elate-theme"
   [params.about]
     enable = true
     title = "About"
-    description = "Liquid Genius is a group of partners from major projects around the US, looking to bring quality, effective engineering practices developed on major projects to all."
+    description = "Liquid Genius is a group of partners from major projects around the US. We use high-quality, effective engineering practices to deliver practical solutions that solve real-world problems."
 
     [[params.about.item]]
       name = "Michael Peter"
